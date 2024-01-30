@@ -6,6 +6,7 @@ import {
   HiClipboard,
   HiCollection,
   HiInformationCircle,
+  HiLockClosed,
   HiLogin,
   HiPencil,
   HiSearch,
@@ -67,6 +68,9 @@ const ExampleSidebar: FC = function () {
                 }
               >
                 Users list
+              </Sidebar.Item>
+              <Sidebar.Item href="/protected" icon={HiLockClosed}>
+                Protected Page
               </Sidebar.Item>
               <Sidebar.Item href="/login" icon={HiLogin}>
                 Sign in
